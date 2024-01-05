@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+    scroll-padding-top: 100px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-brand{
+    background-color: rgb(87, 197, 241);
+}
+.nav-link{
+    border-radius: 20px;
+}
+.nav-link:hover{
+    background-color: grey;
+    border-radius: 20px;
+    
+}
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+}
+.indianpackage{
+    background-color: rgb(87, 197, 241);
+}
+#firstcard{
+    box-shadow: 0px 0px 20px grey;
+}
+ #firstcard:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    box-shadow: 0px 0px 50px 15px grey;
+}
+.card h5{
+    font-family: 'Russo One', sans-serif;
+}
+.card a{
+    background-color: rgb(87, 197, 241);
+}
+.bestoffers h1{
+    font-family: 'Titan One', cursive;
+}
+.bestoffers span{
+    font-family: 'Titan One', cursive;
+}
+.offer1{
+    height: 310px;
+}
+.offer1-div h5{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -50px;
+    padding-left: 10px;
+    font-family: 'Calistoga', cursive;
+}
+.offer1-div p{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -30px;
+    padding-left: 10px;
+}
+.offer1-div:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.offer2-div h5{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -50px;
+    padding-left: 10px;
+    font-family: 'Calistoga', cursive;
+}
+.offer2-div p{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -30px;
+    padding-left: 10px;
+}
+.offer2{
+    height: 310px;
+    margin-top: 20px;
+}
+.offer2-div:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.offer3{
+    height: 640px;
+}
+.offer3-div p{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -30px;
+    padding-left: 10px;
+}
+.offer3-div h5{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -50px;
+    padding-left: 10px;
+    font-family: 'Calistoga', cursive;
+}
+.offer3-div:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+.offer3:hover{
+    transition: 1s;
+}
+.offer4{
+    height: 350px;
+}
+.offer4-div p{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -30px;
+    padding-left: 10px;
+}
+.offer4-div h5{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -50px;
+    padding-left: 10px;
+    font-family: 'Calistoga', cursive;
+}
+.offer4-div:hover{
+    transition: 1s;
+    transform: scale(.9);
+}
+.offer4:hover{
+    transition: 1s;
+}
+.offer5{
+    height: 270px;
+    margin-top: 20px;
+}
+.offer5-div p{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -30px;
+    padding-left: 10px;
+}
+.offer5-div h5{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -50px;
+    padding-left: 10px;
+    font-family: 'Calistoga', cursive;
+}
+.offer5-div:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.exploremore button{
+    background-color:  rgb(87, 197, 241);
+}
+.exploremore button:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    background-color: blue;
+}
+.exploremore a{
+    color: white;
+}
+.exploremore a:hover{
+    color: white;
+}
+.contactme{
+    opacity: 0;
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(87, 197, 241);
+    color: white;
+    border: white;
+}
+.guidecard:hover{
+    box-shadow: 0px 0px 20px grey;
+    transition: 0.5s;
+}
+.guidecard:hover .contactme{
+    opacity: 100;
+    transition: .5s;
+}
+.service-div:hover{
+    box-shadow: 0px 0px 20px grey;
+    transition: 0.3s;
+}
+.service-div div{
+    width: 100%;
+}
+.contact-us{
+    background-color: rgba(233, 221, 221, 0.341);
+
+}
+
+#logo{
+    font-size: 40px;
+    color: black;
+}
+#logo:hover{
+    color: rgb(87, 197, 241);
+    transition: .3s;
+}
+.con-link{
+    text-decoration: none;
+}
